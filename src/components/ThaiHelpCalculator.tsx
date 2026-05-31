@@ -198,7 +198,7 @@ export default function ThaiHelpCalculator() {
           >
             {needTopup > 0.01
               ? <>ต้องเติมอีก <strong>{fmt(needTopup)}</strong> บาท</>
-              : <>✅ เงินพอแล้ว ! {Math.abs(needTopup) > 0.01 && <>เหลือ <strong>{fmt(Math.abs(needTopup))}</strong> บาท</>}</>
+              : <>✅ เงินพอแล้ว !!! {Math.abs(needTopup) > 0.01 && <>เหลือ <strong>{fmt(Math.abs(needTopup))}</strong> บาท</>}</>
             }
           </div>
         )}
