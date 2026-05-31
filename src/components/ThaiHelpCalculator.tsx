@@ -45,7 +45,7 @@ export default function ThaiHelpCalculator() {
       <div className="text-center mb-6">
         <div
           className="h-1.5 w-24 mx-auto mb-4 rounded-full"
-          style={{ background: "linear-gradient(90deg, #a3192e 33%, #fff 33% 66%, #1b3a7a 66%)" }}
+          style={{ background: "linear-gradient(90deg, #a3192e 16.67%, #fff 16.67% 33.33%, #1b3a7a 33.33% 66.67%, #fff 66.67% 83.33%, #a3192e 83.33%)" }}
         />
         <h1 className="font-mitr text-3xl" style={{ color: "#1b4d8f" }}>
           คำนวณ <span style={{ color: "#c0392b" }}>ไทยช่วยไทยพลัส</span>
